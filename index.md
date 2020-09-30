@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## Bienvenido al seminario profesional
 
 You can use the [editor on GitHub](https://github.com/LuiggyFlorencia/Periodo-P56/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Sesiones de clases
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Lunes, 21/09/2020: [Comandos de GIT](https://www.youtube.com/watch?v=tIicUjAI_Hk&t=87s)
 
 ```markdown
 Syntax highlighted code block
