@@ -1,0 +1,5 @@
+Universidad Politecnica Salesiana
+
+Seminario profesional
+
+Node.js + MongoDB
