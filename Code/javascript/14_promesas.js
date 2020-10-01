@@ -26,7 +26,7 @@ function adios(nombre) {
 }
 
 console.log('Inicializando conversación...')
-hola('Guillermo')
+hola('Luiggy')
     .then( ( data ) => hablar( data ) )
     .then( ( data ) => hablar( data ) )
     .then( ( data ) => hablar( data ) )

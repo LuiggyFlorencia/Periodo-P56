@@ -28,11 +28,11 @@ class Deportista extends Persona {
     }
 }
 
-objeto1 = new Persona('Gabriela', 'Farias', 1.60)
+objeto1 = new Persona('Luiggy', 'Florencia', 1.60)
 objeto1.saludar()
 objeto1.soyAlto()
 
-objeto2 = new Deportista('Manuel', 'Aycart')
+objeto2 = new Deportista('Georllibeth', 'Florencia')
 objeto2.saludar()
 objeto2.altura = 1.72
 objeto2.soyAlto()

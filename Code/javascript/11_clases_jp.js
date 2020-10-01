@@ -41,11 +41,11 @@ Deportista.prototype.saludar = function() {
     console.log( `Hola soy ${this.nombre} ${this.apellido}, y soy deportista.` )
 }
 
-var objeto1 = new Persona('Guillermo', 'Pizarro', 1.63)
+var objeto1 = new Persona('Luiggy', 'Florencia', 1.63)
 objeto1.saludar()
 objeto1.soyAlto()
 
-var objeto2 = new Deportista('Luis', 'Gonzalez')
+var objeto2 = new Deportista('Steven', 'Florencia')
 objeto2.saludar()
 objeto2.saludar2(objeto2.nombre, objeto2.apellido)
 objeto2.altura = 1.80

@@ -30,6 +30,6 @@ function dialogar( nombre, numVeces ) {
 }
 
 console.log( 'Inicializando conversación...' )
-hola('Guillermo', function(nombre) {
+hola('Luiggy', function(nombre) {
     dialogar( nombre, 4 )
 } )
