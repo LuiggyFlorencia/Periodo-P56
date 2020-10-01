@@ -5,7 +5,8 @@ const controller = require('./controller')
 const router = express.Router()
 
 router.get('/', function(req, res) {
-    controller.getCarrera()
+    const filtroCarrera = req.query.carrera || null
+    controller.getCarrera(filtroCarrera)
         .then((data) => {
             response.success( req, res, data, 200 )
         })
