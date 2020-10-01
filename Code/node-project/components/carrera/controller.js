@@ -1,10 +1,11 @@
 const storage = require('./storage')
 const store = require('./storage')
 
-function addCarrera(nombre, descripcion){
-    return new Promise(( resolve, reject ) => {
+function addCarrera(nombre, abreviatura, descripcion){
+    return new Promise( ( resolve, reject ) => {
         let carrera ={
             nombre: nombre,
+            abreviatura: abreviatura,
             descripcion: descripcion,
         }
         storage.add(carrera)
@@ -18,21 +19,27 @@ function getCarrera(){
     })
 }
 
-function updateCarrera(nombre, descripcion){
-    return new Promise(( resolve, reject ) => {
-        let carrera ={
+function updateCarrera(idCarrera, nombre, abreviatura ,descripcion){
+    return new Promise( async ( resolve, reject ) => {
+        let carrera = {
             nombre: nombre,
+            abreviatura: abreviatura,
             descripcion: descripcion,
         }
-        storage.update(carrera)
-        resolve(carrera) 
+        const result = await storage.update(idCarrera, carrera)
+        resolve(result) 
     })
 }
 
-function deleteCarrera(nombre){
+function deleteCarrera(idCarrera){
     return new Promise(( resolve, reject ) => {
-        storage.delete(nombre)
-        resolve(nombre)
+        storage.delete(idCarrera)    
+        .then(() =>{
+            resolve()
+        })
+        .catch((error) =>{
+            reject(error)
+        })      
     })
 }
 
