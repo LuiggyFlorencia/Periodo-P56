@@ -16,4 +16,4 @@ Este seminario Profesional permitirá generar la competicion para implementar ap
 
 
 - Visitenos en: [Pagina Web Florencia](https://luiggyflorencia.github.io/Periodo-P56/)
-- Mi repositorio: [Pagina Web Florencia](https://github.com/LuiggyFlorencia/Periodo-P56.git)
+- Mi repositorio: [GitHub Florencia](https://github.com/LuiggyFlorencia/Periodo-P56.git)
