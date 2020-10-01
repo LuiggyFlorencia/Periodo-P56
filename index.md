@@ -11,6 +11,7 @@ Este seminario Profesional permitirá generar la competicion para implementar ap
 - Viernes, 25/09/2020: [Prototipos, Clases y Asincronismo en Javascript)](https://www.youtube.com/watch?v=uUf-JDhDBoU)
 - Lunes, 28/09/2020: [Fundamentos de Node.js](https://www.youtube.com/watch?v=ZHAnQZGIvrw&t=2313s)
 - Martes, 29/09/2020: [Aplicación Web en Node.js + MongoDB](https://www.youtube.com/watch?v=4FgRUG0hHdw)
+- Miercoles, 23/09/2020: [Aplicación Web en Node.js + MongoDB](https://www.youtube.com/watch?v=4FgRUG0hHdw)
 
 
 - Visitenos en: [Pagina Web Florencia](https://luiggyflorencia.github.io/Periodo-P56/)
